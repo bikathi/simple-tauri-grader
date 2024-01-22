@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-styles {
+  @apply block p-2 outline-none rounded-md border border-slate-600 focus:ring-1 focus:ring-blue-500 mt-1;
+}
+
+.input-labels {
+  @apply font-medium;
+}
+
+.form-submit {
+  @apply outline-none bg-blue-500 text-white p-2 rounded-md border border-blue-500 hover:border-blue-700;
+}
